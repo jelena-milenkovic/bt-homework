@@ -9,3 +9,5 @@ function brojKamionaIliOstatakLitaraGoriva ($ukupnoGorivo, $potrosnjaPoKamionu, 
 
 }
 echo brojKamionaIliOstatakLitaraGoriva (100, 20, false);
+
+?>

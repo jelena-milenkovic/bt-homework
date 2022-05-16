@@ -75,5 +75,7 @@ echo "Uneti dan je " . $day . "<br>";
 echo "Uneti mesec je " . $monthName . "<br>";
 echo "Uneta godina je" . $year . "<br>";
 
+>?
+
 
 
