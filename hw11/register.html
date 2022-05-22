@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+</head>
+<body>
+    <form action="register.php" method="GET" target="name1">
+        <div>
+            <label for="name">Ime</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="last_name">Prezime</label>
+            <input type="text" id="last-name" name="last-name">
+        </div>
+        <div>
+            <label class="self-label">Izaberite pol</label>
+            <label for="male">Muski</label>
+            <input type="radio" id="male" name="pol" value="Postovani" >
+            <label for="female">Zenski</label>
+            <input type="radio" id="female" name="pol" value="Postovana">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="password">Lozinka</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <label class>Odabir kurseva</label>
+            <br>
+            <label class="kurs-label" for="php_kurs">PHP</label>
+            <input type="checkbox" id="php_kurs" name="kursevi[]" value="PHP" checked>
+            <label class="kurs-label" for="java_kurs">Java</label>
+            <input type="checkbox" id="java_kurs" name="kursevi[]" value="Java">
+            <label class="kurs-label" for="ruby_kurs">Ruby</label>
+            <input type="checkbox" id="ruby_kurs" name="kursevi[]" value="Ruby">
+            <label class="kurs-label" for="c++_kurs">C++</label>
+            <input type="checkbox" id="c++.kurs" name="kursevi[]" value="C++">
+        </div>
+        <div>
+            <label for="number">Broj telefona:</label>
+            <input type="number" id="number"  name="number">
+        </div>   
+        <button type="submit" name="submit">Posalji</button>
+    </form>
+    <iframe name="name1"></iframe>
+    
+</body>
+</html>
+        
+
+   
